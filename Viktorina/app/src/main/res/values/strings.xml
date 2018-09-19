@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Охрана труда в промышленном альпинизме</string>
+    <string name="quest_one">1) К работам на высоте относятся работы, когда:</string>
+    <string name="answer_one_true">Cуществуют риски, связанные с возможным падением работника с высоты 1,8 м и более</string>
+    <string name="answer_two_false">Работы производятся на площадках на расстоянии дальше 2 м от неогражденных перепадов по высоте более 1,8 м</string>
+    <string name="answer_three_false">Работник осуществляет подъем, превышающий по высоте 3 м или спуск, превышающий по высоте 3 м, по вертикальной лестнице, угол наклона которой к горизонтальной поверхности 75 градусов</string>
+    <string name="answer_four_true">Существуют риски, связанные с возможным падением работника с высоты менее 1,8 м, если работа проводится над машинами или механизмами, водной поверхностью или выступающими предметами</string>
+    <string name="push_the_button">Нажми на кнопку</string>
+    <string name="quest_two">2) Не допускается выполнение работ на высоте:</string>
+    <string name="quest_two_answer_one">В открытых местах при скорости воздушного потока (ветра) 20 м/с</string>
+    <string name="quest_two_answer_two">При монтаже (демонтаже) конструкций с большой парусностью при скорости ветра 7 м/с</string>
+    <string name="quest_two_answer_three">Во время дождя</string>
+    <string name="quest_three">3) Сколько должны храниться наряды-допуски на работы которые полностью закончены?</string>
+    <string name="quest_three_answer_one">180 дней</string>
+    <string name="quest_three_answer_two">30 дней</string>
+    <string name="quest_three_answer_three">365 дней</string>
+    <string name="quest_four">4) Лучшая в мире фирма по промышленному Альпинизму?</string>
+    <string name="hint_edit_text">Введите имя фирмы без ООО</string>
+    <string name="your_score">Ты набрал </string>
+    <string name="score">Очка(-ов)</string>
+    <string name="good_boy">Можешь спокойно лезть на высоту!</string>
+    <string name="not_bad">Эх, надо бы подучить!</string>
+    <string name="bad">Ты умудрился уйти в минус... Иди учи!</string>
+</resources>

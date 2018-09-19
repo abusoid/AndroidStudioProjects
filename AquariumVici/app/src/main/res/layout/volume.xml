@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Длина в см"
+        android:textSize="25sp"/>
+    <EditText
+        android:id="@+id/length"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:hint="Введите здесь длину"
+        android:gravity="center"
+        android:maxLines="1"
+        android:maxLength="20"
+        android:inputType="numberDecimal"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ширина в см"
+        android:layout_gravity="center"
+        android:textSize="25sp"
+        />
+    <EditText
+        android:id="@+id/width"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:hint="Введите здесь ширину"
+        android:maxLines="1"
+        android:maxLength="20"
+        android:inputType="numberDecimal"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Высота в см"
+        android:layout_gravity="center"
+        android:textSize="25sp" />
+    <EditText
+        android:id="@+id/height"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:hint="Введите здесь высоту"
+        android:maxLines="1"
+        android:maxLength="20"
+        android:inputType="numberDecimal"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Рассчитать"
+        android:onClick="calculate"/>
+    <TextView
+        android:id="@+id/answer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:textSize="60sp"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>

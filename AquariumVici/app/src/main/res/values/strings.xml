@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Справочник Аквариумиста</string>
+    <string name="freshwater_category">Пресноводный</string>
+    <string name="saltwater_category">Морской</string>
+    <string name="calc_category">Калькуляторы</string>
+    <string name="fishes">Рыбы</string>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/freshwater_fish"
+        style="@style/CategoryStyle"
+        android:background="@color/category_saltwater"
+        android:text="Рыбы"
+        android:onClick="freshwaterFishClick"/>
+    <TextView
+        android:id="@+id/freshwater_plant"
+        style="@style/CategoryStyle"
+        android:background="@color/category_freshwater"
+        android:text="Растения"
+        android:onClick="freshwaterPlantClick"/>
+    <TextView
+        android:id="@+id/freshwater_invertebrates"
+        style="@style/CategoryStyle"
+        android:background="@color/category_calc"
+        android:text="Беспозвоночные"
+        android:layout_alignParentBottom="true"
+        android:onClick="freshwaterInvertebratesClick"/>
+
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.example.ave.vertickal.Vertikal"
+    android:orientation="vertical">
+
+    <ImageView
+        android:src="@drawable/we"
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_margin="0dp"
+        android:scaleType="centerCrop"
+        android:isScrollContainer="true"
+
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="С Новым Годом"
+        android:fontFamily="sans-serif-light"
+        android:layout_gravity="center"
+        android:textColor="#5E35B1"
+        android:textStyle="bold"
+        android:layout_margin="20dp"
+        android:textSize="36sp"
+        android:id="@+id/textView1"
+        android:isScrollContainer="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:textColor="@android:color/black"
+        android:textStyle="italic"
+        android:layout_margin="20dp"
+        android:textSize="16sp"
+        android:id="@+id/textView2"
+        android:text="От Дружной команды Вертикаль-М.рф"
+        android:autoLink="web"
+        android:isScrollContainer="true"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="8-925-736-70-13"
+        android:autoLink="phone"
+        android:id="@+id/button"/>
+
+</LinearLayout>

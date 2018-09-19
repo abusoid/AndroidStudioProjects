@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Miwok</string>
+    <string name="category_phrases">Фразы</string>
+    <string name="category_colors">Цвета</string>
+    <string name="category_numbers">Числа</string>
+    <string name="category_family">Семья</string>
+    <string name="one">один</string>
+    <string name="two">да</string>
+    <string name="three">три</string>
+    <string name="four">четыре</string>
+    <string name="five">пять</string>
+    <string name="six">шесть</string>
+    <string name="seven">семь</string>
+    <string name="eight">восемь</string>
+    <string name="nine">девять</string>
+    <string name="ten">десять</string>
+    <string name="red">красный</string>
+    <string name="green">зеленый</string>
+    <string name="brown">коричневы</string>
+    <string name="gray">серый</string>
+    <string name="black">черный</string>
+    <string name="white">белый</string>
+    <string name="dusty_yellow">темно желтый</string>
+    <string name="mustard_yellow">ярко желтый</string>
+    <string name="father">отец</string>
+    <string name="mother">мать</string>
+    <string name="son">сын</string>
+    <string name="daughter">дочь</string>
+    <string name="older_brother">старший брат</string>
+    <string name="younger_brother">младший брат</string>
+    <string name="older_sister">старшая сестра</string>
+    <string name="younger_sister">младшая сестра</string>
+    <string name="grandmother">бабушка</string>
+    <string name="grandfather">дедушка</string>
+    <string name="where_are">Что ты делаешь?</string>
+    <string name="what_is">Как тебя зовут?</string>
+    <string name="my_name_is">Меня зовут...</string>
+    <string name="how_are">Как себя чувствуешь?</string>
+    <string name="feeling_good">Я чувствую себя хорошо</string>
+    <string name="are_you_coming">Ты придешь?</string>
+    <string name="yes_coming">Да, я приду</string>
+    <string name="i_coming">Я приду</string>
+    <string name="lets_go">Пошли</string>
+    <string name="come_here">Иди сюда</string>
+</resources>
